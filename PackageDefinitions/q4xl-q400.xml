@@ -1,0 +1,38 @@
+<AssetPackage Name="q4xl-q400" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Q400</Title>
+		<Manufacturer>Bombardier</Manufacturer>
+		<Creator>Q4XL</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\q4xl-q400\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\q4xl-q400\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="Q4XL_Q400">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\q4xl-q400\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\q4xl-q400\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="html_ui">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\html_ui\</AssetDir>
+			<OutputDir>html_ui\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
